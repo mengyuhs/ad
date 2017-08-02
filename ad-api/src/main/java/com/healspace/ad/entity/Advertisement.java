@@ -11,9 +11,12 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class Advertisement extends BaseEntity  {
+public class Advertisement extends BaseEntity {
     private static final long serialVersionUID = 1693474701413761845L;
     private String name;
-    private String source;
+    private Integer type;
+    private RedPacket redPacket;
+    private String thumb;
+    private String video;
 
 }
