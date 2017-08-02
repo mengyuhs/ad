@@ -6,7 +6,7 @@ import com.healspace.ad.entity.Advertisement;
 import java.util.List;
 
 /**
- * Adservice
+ * AdServiceImpl
  *
  * @author mengyu
  * @since 2017/8/2
